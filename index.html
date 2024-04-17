@@ -1,86 +1,64 @@
 <!DOCTYPE html>
-<html lang="it">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>CV</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-
-    <form action="/action_page.php" method="post" align="center">
-        <h1>
-            Form festa
-        </h1>
-        <table cellpadding="5" align="center" style="height: auto; width: auto;">
-            <th>
-                <label for="Nome"> Nome</label>
-            </th>
-            <th>
-                <label for="Nome"> Cognome</label>
-            </th>
-            <tr>
-                <td>
-                    <input type="text" name="nome" placeholder="Nome" id="Nome">
-                </td>
-                <td>
-                    <input type="text" name="cognome" placeholder="Cognome" id="Cognome">
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    <label for="età">Età</label>
-                </th>
-                <th>
-                    <label for="nPersone">Numero di persone</label>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" name="età" placeholder="Età" id="età">
-                </td>
-                <td>
-                    <input type="text" name="nPersone" placeholder="Numero di persone" id="nPersone">
-                </td>
-            </tr>
-            <th colspan="3">
-                <label for="valutazione">Come valuti i preparativi della festa?</label>
-            </th>
-            <tr>
-                <td colspan="2">
-                    <input type="radio" id="sufficiente" value="Sufficiente" name="voto">
-                    <label for="sufficiente">Sufficiente</label>&nbsp;
-   
-                    <input type="radio" id="buono" value="Buono" name="voto">
-                    <label for="buono">Buono</label>&nbsp;
-               
-                    <input type="radio" id="ottimo" value="Ottimo" name="voto">
-                    <label for="ottimo">Ottimo</label>&nbsp;
-                </td>
-            </tr>
-            <tr>
-                <td align="center" colspan="2">
-                    <label for="checkbox">Puoi bere alcolici?</label>
-                    <input type="checkbox" value="Puoi bere alcolici?">
-                </td>
-            </tr>
-            <tr>
-                <td align="center" colspan="2">
-                    <input type="submit" value="Invia">&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="reset" value="Reset">
-                </td>
-            </tr>
-        </table>
-        
-    </form>
     <br>
-    <iframe width="920" height="550" src="https://www.youtube.com/embed/V1G-R6WCmIQ?loop=1&controls=0"></iframe>
-    
-
-    
-
+    <div class="rectangle" align="center">
+    <img src="leone.jpg" alt="Leone" style="width:250px;height:220px;border-radius: 50%;">
+    <h1><p>Antonio Volpicelli</p></h1>
+    <table border="1">
+        <tr>
+        <th colspan="2">
+            Competenze
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Linguistiche
+        </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://drive.google.com/file/d/1vSm8PyP3xT7RmoRsfFGOUDVtBRnkEOEv/view?usp=sharing" target=”_blank”> Italiano</a>
+                </li>
+                <li>
+                    Inglese
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Informatiche
+        </td>
+        <td>
+            <ul>
+                <li>
+                    Python
+                </li>
+                <li>
+                    Java
+                    Selenium e cucumber
+                </li>
+                <li>
+                    Sql
+                </li>
+                <li>
+                    Tosca Commander
+                </li>
+            </ul>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+</div>
 </body>
-
 </html>
